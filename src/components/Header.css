@@ -44,7 +44,6 @@ button.nav-link {
     }
 }
 
-/* Make the navbar sticky to the top */
 .sticky-top {
     position: sticky;
     top: 0;
