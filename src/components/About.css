@@ -15,8 +15,8 @@
     border-radius: 30px;
     padding: 20px;
     margin: 0 auto;
-    width: 90%; /* Change from fixed width to percentage */
-    max-width: 1100px; /* Set a maximum width */
+    width: 90%;
+    max-width: 1100px;
     box-sizing: border-box;
 }
 
