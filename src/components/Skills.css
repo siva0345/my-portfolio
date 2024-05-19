@@ -1,7 +1,7 @@
 .skills {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap;
+    justify-content: center;
     background-image: url("https://images.unsplash.com/photo-1517874045092-09f497a82704?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     color: white;
   }
@@ -42,7 +42,7 @@
   padding: 30px;
   margin-bottom: 20px;
   text-align: left;
-  flex: 1; /* Allow boxes to grow and shrink with screen size */
+  flex: 1;
 }
 
 .skills1,
@@ -56,37 +56,36 @@
   margin-bottom: 20px;
   text-align: justify;
   padding-left: 150px;
-  flex: 1; /* Allow boxes to grow and shrink with screen size */
+  flex: 1;
 }
 
 .skills1 {
-  margin-right: 20px; /* Add margin-right to create space between the sections */
+  margin-right: 20px;
 }
 
 .skills2 {
-  margin-left: 20px; /* Add margin-left to create space between the sections */
+  margin-left: 20px;
 }
 
 .skills {
-  display: flex; /* Set display to flex to align boxes side by side */
-  justify-content: space-between; /* Align boxes with space between them */
+  display: flex;
+  justify-content: space-between;
 }
 
-/* Media query for responsiveness */
 @media only screen and (max-width: 768px) {
   .skills1,
   .skills2 {
-    width: 100%; /* Set width to 100% for smaller screens */
-    margin: 10px 0; /* Add margin around the skill sections */
+    width: 100%;
+    margin: 10px 0;
   }
 
   .skills {
-    flex-direction: column; /* Stack boxes vertically on smaller screens */
-    align-items: center; /* Center boxes horizontally */
+    flex-direction: column;
+    align-items: center;
   }
 
   .skills1 {
-    margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+    margin-right: 0;
   }
 }
 
