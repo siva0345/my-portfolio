@@ -1,0 +1,27 @@
+.carousel-wrapper {
+  margin-top: 250px; /* Adjusted margin-top for spacing */
+  margin-bottom: 250px; /* Adjusted margin-bottom for spacing */
+  position: relative;
+  color: rgb(1, 1, 42);
+}
+
+.carousel-background {
+  background-color: rgb(1, 1, 42); /* Set background color for the carousel */
+  border-radius: 20px; /* Apply border radius to match the card */
+  padding: 20px; /* Add padding for spacing */
+  margin-top: 20px; /* Add margin to create space between the carousel and top components */
+  margin-bottom: 20px; /* Add margin to create space between the carousel and bottom components */
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .carousel-wrapper {
+    margin-top: 50px; /* Adjusted margin-top for smaller devices */
+    margin-bottom: 50px; /* Adjusted margin-bottom for smaller devices */
+  }
+
+  /* Adjust card width for smaller screens */
+  .react-swipe-card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,64 @@
+.foot {
+    border: 1px solid red transparent;
+    width: 100%;
+    text-align: center; /* Center align the content */
+  }
+  
+  .footBody {
+    margin-top: 50px; /* Adjust top margin for spacing */
+  }
+  
+  .foot2,
+  .foot3 {
+    margin-top: 30px;
+    display: inline-block; /* Display boxes inline */
+    width: 25%; /* Each box occupies 25% of the width */
+    vertical-align: top; /* Align boxes to the top */
+  }
+  
+  .foot2 {
+    border: 1px red solid transparent;
+    margin-left: 200px; /* Margin to position box at 20% from the center */
+  }
+  
+  .foot3 {
+    border: 1px red solid transparent;
+    margin-right: 200px; /* Margin to position box at 20% from the center */
+  }
+  
+  .un-list {
+    list-style-type: none;
+    padding-left: 0; /* Remove default padding */
+    margin-top: 30px; /* Adjust top margin for spacing */
+    border: 1px solid red transparent;
+    text-align: center;
+    margin-right: -40px;
+  }
+  
+  .un-list li {
+    display: inline-block; /* Display list items inline */
+    margin: 0 10px; /* Add margin between list items */
+  }
+  
+  a {
+    color: rgba(66, 65, 65, 0.849);
+    text-decoration: none; /* Remove underline */
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  h5 {
+    color: rgba(240, 248, 255, 0.584);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .foot2,
+    .foot3 {
+      display: block; /* Change to block display on small screens */
+      width: 100%; /* Set width to 100% on small screens */
+      margin: 20px 0; /* Adjust margin on small screens */
+    }
+  }
+  

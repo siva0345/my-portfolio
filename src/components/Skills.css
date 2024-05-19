@@ -1,0 +1,97 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    background-image: url("https://images.unsplash.com/photo-1517874045092-09f497a82704?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    color: white;
+  }
+  
+  .skills1,
+  .skills2 {
+    margin-top: 20px;
+    border: 1px solid red transparent;
+    background-color: rgba(0, 0, 0, 0.148);
+    border-radius: 20px;
+    height: 275px;
+    width: 350px;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .skills1,
+.skills2 {
+  margin-top: 20px;
+  border: 1px solid red transparent;
+  background-color: rgba(0, 0, 0, 0.148);
+  border-radius: 20px;
+  height: 275px;
+  width: 350px;
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skills1,
+.skills2 {
+  margin-top: 20px;
+  border: 1px solid red transparent;
+  background-color: rgba(0, 0, 0, 0.148);
+  border-radius: 20px;
+  height: 275px;
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  flex: 1; /* Allow boxes to grow and shrink with screen size */
+}
+
+.skills1,
+.skills2 {
+  margin-top: 20px;
+  border: 1px solid red transparent;
+  background-color: rgba(0, 0, 0, 0.148);
+  border-radius: 20px;
+  height: 275px;
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding-left: 150px;
+  flex: 1; /* Allow boxes to grow and shrink with screen size */
+}
+
+.skills1 {
+  margin-right: 20px; /* Add margin-right to create space between the sections */
+}
+
+.skills2 {
+  margin-left: 20px; /* Add margin-left to create space between the sections */
+}
+
+.skills {
+  display: flex; /* Set display to flex to align boxes side by side */
+  justify-content: space-between; /* Align boxes with space between them */
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .skills1,
+  .skills2 {
+    width: 100%; /* Set width to 100% for smaller screens */
+    margin: 10px 0; /* Add margin around the skill sections */
+  }
+
+  .skills {
+    flex-direction: column; /* Stack boxes vertically on smaller screens */
+    align-items: center; /* Center boxes horizontally */
+  }
+
+  .skills1 {
+    margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+  }
+}
+
+.tech{
+    color: red;
+    font-weight: bolder;
+    
+}
